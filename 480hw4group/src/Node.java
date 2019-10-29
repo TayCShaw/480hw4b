@@ -1,7 +1,7 @@
 /**
  * This class represents the individual in the population. It has the ability to 
  * mutate, shuffle its self, and calculate its fitness.
- * 
+ *  
  * @author Samuel Riegler
  *
  */

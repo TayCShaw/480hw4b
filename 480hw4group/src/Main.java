@@ -9,7 +9,7 @@ import java.util.Scanner;
 /**
  * Course number: CPS 480
  * Names: Samuel Riegler and Taylor Shaw
- * Assignment: Homework 4
+ * Assignment: Homework 4 
  * 
  * This program uses a genetic algorithm (based on two-position flip) to find the best path
  * between all cities specified in a CSV file. The best path is the path with the lowest fitness score.
