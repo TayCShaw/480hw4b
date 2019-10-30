@@ -11,16 +11,19 @@ FILE: MI.csv	 Time taken: 243 milliseconds	 MAXGEN: 10000	 RANDSEEN: 4321	 MUTRA
 FILE: MI.csv	 Time taken: 479 milliseconds	 MAXGEN: 10000	 RANDSEEN: 4321	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 22827.560000	 GENERATIONS: 10000
 FILE: MI.csv	 Time taken: 249 milliseconds	 MAXGEN: 10000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 21114.970000	 GENERATIONS: 10000	 
 FILE: MI.csv	 Time taken: 478 milliseconds	 MAXGEN: 10000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 18384.750000	 GENERATIONS: 10000	 
-FILE: MI.csv	 Time taken: 1.137 seconds	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 19882.010000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 2.398 seconds	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 17167.210000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 1.194 seconds	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 15822.640000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 2.349 seconds	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 15536.530000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 1.145 seconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 19616.030000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 2.368 seconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 17554.080000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 1.201 seconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 15697.210000	 GENERATIONS: 50000	 
-FILE: MI.csv	 Time taken: 2.316 seconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 14365.040000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 1.137 seconds	 	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 19882.010000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 2.398 seconds	 	 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 17167.210000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 1.194 seconds		 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 15822.640000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 2.349 seconds		 MAXGEN: 50000	 RANDSEEN: 1000	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 15536.530000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 1.145 seconds		 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 19616.030000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 2.368 seconds		 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 17554.080000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 1.201 seconds		 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 15697.210000	 GENERATIONS: 50000	 
+FILE: MI.csv	 Time taken: 2.316 seconds		 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 14365.040000	 GENERATIONS: 50000	 
 
 [Summary and Comparison]
+In this file the longer the A.I. took the better the fitness got generally. Also the more generations it ran the better the result as well.
+This file did not ever meat the stopping conditions so it ran the to the max generation limit. The mutation rate played a large roll in
+what the best fitness ended up being.
 
 FILE: DE-all.csv	 Time taken: 41 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 555.740000	 GENERATIONS: 8095	 
 FILE: DE-all.csv	 Time taken: 51 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 612.600000	 GENERATIONS: 5795	 
@@ -40,6 +43,8 @@ FILE: DE-all.csv	 Time taken: 33 milliseconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MU
 FILE: DE-all.csv	 Time taken: 43 milliseconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 549.710000	 GENERATIONS: 4259	 
 
 [Summary and Comparison]
+This file always met the stopping conditions. in general the populations with the highest mutation rate and the highest population ended the fastest.
+With every population meeting the stopping conditions the run times for this file were all very close.
 
 FILE: MI-part-19-miles.csv	 Time taken: 20 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 1179.400000	 GENERATIONS: 3356	 
 FILE: MI-part-19-miles.csv	 Time taken: 25 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 1160.910000	 GENERATIONS: 3169	 
@@ -59,3 +64,8 @@ FILE: MI-part-19-miles.csv	 Time taken: 21 milliseconds	 MAXGEN: 50000	 RANDSEEN
 FILE: MI-part-19-miles.csv	 Time taken: 30 milliseconds	 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE: 0.300000	 POPSIZE: 40	 BEST FITNESS: 1076.400000	 GENERATIONS: 3162	 
 
 [Summary and Comparison]
+This file always met the stopping conditions as well. In general the fastest and best solution was the populations with the largest population and largest mutation rate.
+All of the run times were very close, they only had a max separation of 13 milliseconds. 
+
+
+
