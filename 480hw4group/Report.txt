@@ -3,6 +3,12 @@ The program stops on one of two conditions. Either:
 A) The maximum number of allowed generations have been reached, at which point the current best fitness is time and printed out.
 B) The "best fitness" at that current time has been repeated 3000 times, leading to that being labeled as the best fitness overall.
 
+evaluate-select-reproduce
+The evaluation was done by finding the top x percent of the population. This was done by using a selection sort but only ran enough to find all the parents.
+The select was done by taking the taking the first x percent of the population form the front of the array after the evaluation was done.
+Then the reproduction was done by dividing the population size by the number of parents to get the number of children for each parent. Then a new node was created
+for every and the parent path copied into it. This was repeated for every parent.
+
 FILE: MI.csv	 Time taken: 255 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 28216.100000	 GENERATIONS: 10000	 
 FILE: MI.csv	 Time taken: 481 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 40	 BEST FITNESS: 23368.210000	 GENERATIONS: 10000	 
 FILE: MI.csv	 Time taken: 259 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.300000	 POPSIZE: 20	 BEST FITNESS: 20703.330000	 GENERATIONS: 10000	 
@@ -22,7 +28,7 @@ FILE: MI.csv	 Time taken: 2.316 seconds		 MAXGEN: 50000	 RANDSEEN: 4321	 MUTRATE
 
 [Summary and Comparison]
 In this file the longer the A.I. took the better the fitness got generally. Also the more generations it ran the better the result as well.
-This file did not ever meat the stopping conditions so it ran the to the max generation limit. The mutation rate played a large roll in
+This file did not ever meet the stopping conditions so it ran the to the max generation limit. The mutation rate played a large roll in
 what the best fitness ended up being.
 
 FILE: DE-all.csv	 Time taken: 41 milliseconds	 MAXGEN: 10000	 RANDSEEN: 1000	 MUTRATE: 0.100000	 POPSIZE: 20	 BEST FITNESS: 555.740000	 GENERATIONS: 8095	 
